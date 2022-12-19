@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ========== FAVICON ========== -->
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <!-- ========== Normalize ========== -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- ========== FONT AWESOME ========== -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- ========== CSS STYLESHEET ========== -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- ========== GOOGLE FONTS ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>IT Consulting Demo</title>
+  </head>
+
+  <body>
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+      <nav>
+        <div class="logo">
+          <a href="#">
+            <img src="assets/logo.png" alt="image logo" />
+            <span>VisionM4</span>
+          </a>
+        </div>
+        <div class="nav">
+          <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li>
+              <a href="#" class="dropdown-toggle"
+                >Services
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+              <ul class="dropdown">
+                <li><a href="#machineLearning">Machine learning</a></li>
+                <li><a href="#computerVision">Computer vision</a></li>
+                <li><a href="#internetOfThings">Internet of things</a></li>
+              </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <div class="social">
+            <a href="#" class="main-btn main-btn-pink main-btn-circle">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="main-btn main-btn-pink main-btn-circle">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+          <div class="free-quote">
+            <a href="#" class="main-btn main-btn-blue"> Free quote </a>
+          </div>
+        </div>
+        <div class="toggle-btns">
+          <i class="fa-solid fa-bars" id="openMenuBtn"></i>
+          <i class="fa-solid fa-xmark" id="closeMenuBtn"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ========== HOME ========== -->
+    <div class="home section" id="home">
+      <div class="container">
+        <div class="intro-text content">
+          <h5>Intuitive user experience</h5>
+          <h1>IT Consulting</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            ullamcorper neque dapibus ipsum semper, sit amet luctus turpis
+            consectetur aliquet porttitor.
+          </p>
+          <a href="#" class="main-btn main-btn-pink main-btn-lg">Get started</a>
+        </div>
+        <div class="image content">
+          <img src="assets/02.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== FEATURES 1 ========== -->
+    <div class="features-1 section">
+      <div class="container">
+        <h5 class="section-subheading">What we do</h5>
+        <h2 class="section-heading">Our IT consulting cycle</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+          dignissim dolor in nulla ultrices malesuada nibh semper. Mauris mollis
+          rutrum tortor vitae.
+        </p>
+        <div class="wrapper">
+          <div class="holder">
+            <div class="feature">
+              <i class="fa-regular fa-lightbulb icon"></i>
+              <h4>Find new ideas</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing aliquet elit.
+              </p>
+              <a href="#">
+                <span class="main-btn main-btn-pink main-btn-small">
+                  <i class="fa-solid fa-angle-right"></i>
+                </span>
+                <span>Learn more</span>
+              </a>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="feature">
+              <i class="fa-solid fa-gear icon"></i>
+              <h4>Diagnosis & analysis</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing aliquet elit.
+              </p>
+              <a href="#">
+                <span class="main-btn main-btn-blue main-btn-small">
+                  <i class="fa-solid fa-angle-right"></i>
+                </span>
+                <span>Learn more</span>
+              </a>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="feature">
+              <i class="fa-solid fa-rocket icon"></i>
+              <h4>Product release</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing aliquet elit.
+              </p>
+              <a href="#">
+                <span class="main-btn main-btn-purple main-btn-small">
+                  <i class="fa-solid fa-angle-right"></i>
+                </span>
+                <span>Learn more</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-sect">
+          <div class="left">
+            <h2 class="section-heading">Get a free consultation now!</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              dignissim dolor in nulla ultrices, vitae malesuada nibh semper.
+              Mauris mollis rutrum conubia nisi.
+            </p>
+          </div>
+          <div class="right">
+            <a href="#" class="main-btn main-btn-pink main-btn-lg"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== SERVICES ========== -->
+    <div class="services section" id="services">
+      <div class="container">
+        <h5 class="section-subheading">Our services</h5>
+        <h2 class="section-heading">Services we provide</h2>
+        <p>
+          Duis dignissim dolor in nulla ultrices malesuada nibh semper. Mauris
+          mollis rutrum tortor vitae.
+        </p>
+        <div class="wrapper">
+          <div class="service">
+            <i class="fa-solid fa-arrow-right arrow"></i>
+            <i class="fa-regular fa-file-code icon"></i>
+            <h4>Web developement</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing aliquet elit.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa-solid fa-arrow-right arrow"></i>
+            <i class="fa-solid fa-computer icon"></i>
+            <h4>Computer vision</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing aliquet elit.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa-solid fa-arrow-right arrow"></i>
+            <i class="fa-solid fa-wifi icon"></i>
+            <h4>Internet of things</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing aliquet elit.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa-solid fa-arrow-right arrow"></i>
+            <i class="fa-solid fa-gear icon"></i>
+            <h4>Augmented reality</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing aliquet elit.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa-solid fa-arrow-right arrow"></i>
+            <i class="fa-solid fa-globe icon"></i>
+            <h4>Web developement</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing aliquet elit.
+            </p>
+          </div>
+          <div class="service">
+            <i class="fa-solid fa-arrow-right arrow"></i>
+            <i class="fa-solid fa-eye icon"></i>
+            <h4>Computer vision</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing aliquet elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== FEATURES 2 ========== -->
+    <div class="features-2 section">
+      <div class="container">
+        <div class="image">
+          <img src="assets/01.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h5 class="section-subheading">Our services</h5>
+          <h2 class="section-heading">Our featues</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            dignissim dolor in nulla ultrices, vitae malesuada nibh semper.
+            Mauris mollis rutrum tortor, eu ornare nisi. Maecenas pretium sapien
+            iaculis est bibendum placerat. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+          <div class="wrapper">
+            <div class="holder">
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="description" id="machineLearning">
+                  <h4>Machine learning</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing aliquet
+                    elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="holder">
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="description" id="computerVision">
+                  <h4>Computer vision</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing aliquet
+                    elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="holder">
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="description" id="internetOfThings">
+                  <h4>Internet of things</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing aliquet
+                    elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="holder">
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="description">
+                  <h4>Mobile developement</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing aliquet
+                    elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== PHILOSOPHY ========== -->
+    <div class="philosophy section">
+      <div class="container">
+        <div class="text">
+          <h5 class="section-subheading">Philosophy</h5>
+          <h2 class="section-heading">What we believe in</h2>
+
+          <!-- ===== Input ===== -->
+          <input type="radio" name="philosophy" id="p1" checked />
+          <input type="radio" name="philosophy" id="p2" />
+          <input type="radio" name="philosophy" id="p3" />
+          <!-- ===== Menu ===== -->
+          <div class="menu">
+            <label for="p1" id="m1">Our mission</label>
+            <label for="p2" id="m2">Our vision</label>
+            <label for="p3" id="m3">Our values</label>
+          </div>
+          <!-- ===== Carousel ===== -->
+          <div class="carousel">
+            <div class="slides">
+              <div class="slide" id="slide1">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Mauris tempor laoreet erat, ac commodo felis fermentum nec.
+                  Praesent mattis diam arcu. Duis in tellus erat. Mauris ut arcu
+                  in lectus lobortis aliquet. Pellentesque vitae lacus nunc.
+                  Cras sed risus sit amet ante pretium tempor. Fusce at erat non
+                  nunc egestas sollicitudin at ac sapien. Etiam fermentum eget
+                  nunc ac ultrices. Pellentesque in nibh ante.
+                </p>
+              </div>
+              <div class="slide" id="slide2">
+                <p>
+                  Etiam eros dolor, suscipit ut diam ac, rhoncus luctus nisl.
+                  Sed consectetur egestas metus, vestibulum venenatis sapien
+                  tincidunt vitae. Sed mollis eros ac accumsan tempor. Proin
+                  mollis purus nec ligula venenatis, ut sagittis ex placerat.
+                  Sed purus felis, lobortis id elementum eu, suscipit at mauris.
+                  Phasellus a ipsum vel est ornare dignissim. Donec vel congue
+                  dui. Sed eu sapien massa.
+                </p>
+              </div>
+              <div class="slide" id="slide3">
+                <p>
+                  Quisque facilisis quis dolor at placerat. Mauris quis eros
+                  fermentum, interdum massa vel, pellentesque diam. Phasellus at
+                  molestie odio, eu convallis justo. In hac habitasse platea
+                  dictumst. Cras ac porta sem. Nulla aliquam orci dui, vel
+                  finibus nisi hendrerit ut. Phasellus fringilla libero quis
+                  risus auctor feugiat. Aenean sollicitudin eleifend hendrerit.
+                  Duis et rutrum velit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <span class="main-btn main-btn-purple main-btn-small">
+              <i class="fa-solid fa-angle-right"></i>
+            </span>
+            <span>Learn More</span>
+          </a>
+        </div>
+        <div class="image">
+          <img src="assets/02.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ========== PRICING ========== -->
+    <div class="pricing section">
+      <div class="container">
+        <h2 class="section-heading">Pricing tables</h2>
+        <div class="wrapper">
+          <div class="holder">
+            <div class="plan">
+              <div class="plan-header">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 640 640"
+                  width="250"
+                  height="250"
+                >
+                  <defs>
+                    <path
+                      d="M591.7 245.6C618.95 316.15 651.66 392.09 601.95 465.7C552.23 539.31 399.63 500.01 330.83 500.01C253.43 500.01 172.9 542.43 119.05 505.87C93.07 488.24 77.27 453.64 71.67 402.08C66.16 351.48 51.8 302.24 29.22 256.61C19.23 236.4 34.81 267.91 27.68 253.49C-0.29 196.95 16.6 128.48 67.66 91.44C81.89 81.11 94.25 73.3 104.74 68.02C119.44 60.62 145.26 51.64 182.2 41.08C259.86 18.9 340.98 11.46 421.38 19.16C464.03 23.25 442.2 21.16 477.83 24.57C559.97 32.44 615.46 112.1 594.36 191.88C588.01 215.87 587.13 233.78 591.7 245.6Z"
+                      id="c1STRLUcV9"
+                      fill="#bbb"
+                    ></path>
+                  </defs>
+                  <g>
+                    <g>
+                      <g>
+                        <use
+                          xlink:href="#c1STRLUcV9"
+                          opacity="1"
+                          fill-opacity="0.3"
+                        ></use>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <h5 class="title">Basic plan</h5>
+                <h2 class="price">$29.99</h2>
+                <h5 class="period">Monthly package</h5>
+              </div>
+              <div class="plan-body">
+                <ul>
+                  <li>25 Analytics Campaign</li>
+                  <li>1,300 Keywords</li>
+                  <li>25 Social Media Reviews</li>
+                  <li>1 Free Optimization</li>
+                  <li>24/7 Support</li>
+                </ul>
+                <a href="#" class="main-btn main-btn-pink">Choose plan</a>
+              </div>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="plan">
+              <div class="plan-header">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 640 640"
+                  width="250"
+                  height="250"
+                >
+                  <defs>
+                    <path
+                      d="M591.7 245.6C618.95 316.15 651.66 392.09 601.95 465.7C552.23 539.31 399.63 500.01 330.83 500.01C253.43 500.01 172.9 542.43 119.05 505.87C93.07 488.24 77.27 453.64 71.67 402.08C66.16 351.48 51.8 302.24 29.22 256.61C19.23 236.4 34.81 267.91 27.68 253.49C-0.29 196.95 16.6 128.48 67.66 91.44C81.89 81.11 94.25 73.3 104.74 68.02C119.44 60.62 145.26 51.64 182.2 41.08C259.86 18.9 340.98 11.46 421.38 19.16C464.03 23.25 442.2 21.16 477.83 24.57C559.97 32.44 615.46 112.1 594.36 191.88C588.01 215.87 587.13 233.78 591.7 245.6Z"
+                      id="c1STRLUcV9"
+                      fill="#bbb"
+                    ></path>
+                  </defs>
+                  <g>
+                    <g>
+                      <g>
+                        <use
+                          xlink:href="#c1STRLUcV9"
+                          opacity="1"
+                          fill-opacity="0.3"
+                        ></use>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <h5 class="title">Premium plan</h5>
+                <h2 class="price">$19.99</h2>
+                <h5 class="period">Monthly package</h5>
+              </div>
+              <div class="plan-body">
+                <ul>
+                  <li>25 Analytics Campaign</li>
+                  <li>1,300 Keywords</li>
+                  <li>25 Social Media Reviews</li>
+                  <li>1 Free Optimization</li>
+                  <li>24/7 Support</li>
+                </ul>
+                <a href="#" class="main-btn main-btn-blue">Choose plan</a>
+              </div>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="plan">
+              <div class="plan-header">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 640 640"
+                  width="250"
+                  height="250"
+                >
+                  <defs>
+                    <path
+                      d="M591.7 245.6C618.95 316.15 651.66 392.09 601.95 465.7C552.23 539.31 399.63 500.01 330.83 500.01C253.43 500.01 172.9 542.43 119.05 505.87C93.07 488.24 77.27 453.64 71.67 402.08C66.16 351.48 51.8 302.24 29.22 256.61C19.23 236.4 34.81 267.91 27.68 253.49C-0.29 196.95 16.6 128.48 67.66 91.44C81.89 81.11 94.25 73.3 104.74 68.02C119.44 60.62 145.26 51.64 182.2 41.08C259.86 18.9 340.98 11.46 421.38 19.16C464.03 23.25 442.2 21.16 477.83 24.57C559.97 32.44 615.46 112.1 594.36 191.88C588.01 215.87 587.13 233.78 591.7 245.6Z"
+                      id="c1STRLUcV9"
+                      fill="#bbb"
+                    ></path>
+                  </defs>
+                  <g>
+                    <g>
+                      <g>
+                        <use
+                          xlink:href="#c1STRLUcV9"
+                          opacity="1"
+                          fill-opacity="0.3"
+                        ></use>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <h5 class="title">Ultra plan</h5>
+                <h2 class="price">$39.99</h2>
+                <h5 class="period">Monthly package</h5>
+              </div>
+              <div class="plan-body">
+                <ul>
+                  <li>25 Analytics Campaign</li>
+                  <li>1,300 Keywords</li>
+                  <li>25 Social Media Reviews</li>
+                  <li>1 Free Optimization</li>
+                  <li>24/7 Support</li>
+                </ul>
+                <a href="#" class="main-btn main-btn-purple">Choose plan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== TEAM ========== -->
+    <div class="team section">
+      <div class="container">
+        <h5 class="section-subheading">Our team</h5>
+        <h2 class="section-heading">Our dedicated team</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+          dignissim dolor in nulla ultrices, vitae malesuada nibh semper. Mauris
+          mollis rutrum eu ornare nisi.
+        </p>
+      </div>
+      <div class="wrapper">
+        <div class="holder">
+          <div class="person">
+            <div class="image">
+              <img src="assets/face1.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h4>Mark Flynn</h4>
+              <h5>Digital Marketing</h5>
+              <ul class="social">
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-purple">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-pink">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-blue">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="holder">
+          <div class="person">
+            <div class="image">
+              <img src="assets/face2.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h4>Ann Brown</h4>
+              <h5>Designer</h5>
+              <ul class="social">
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-purple">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-pink">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-blue">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="holder">
+          <div class="person">
+            <div class="image">
+              <img src="assets/face3.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h4>James Doe</h4>
+              <h5>Developer</h5>
+              <ul class="social">
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-purple">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-pink">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-blue">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="holder">
+          <div class="person">
+            <div class="image">
+              <img src="assets/face4.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h4>Kate Jason</h4>
+              <h5>Manager</h5>
+              <ul class="social">
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-purple">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-pink">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-blue">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="holder">
+          <div class="person">
+            <div class="image">
+              <img src="assets/face5.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h4>Ben Flynn</h4>
+              <h5>Developer</h5>
+              <ul class="social">
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-purple">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-pink">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-blue">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="holder">
+          <div class="person">
+            <div class="image">
+              <img src="assets/face6.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h4>Olivia</h4>
+              <h5>Designer</h5>
+              <ul class="social">
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-purple">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-pink">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="main-btn main-btn-circle main-btn-blue">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== FAQ ========== -->
+    <div class="faq section">
+      <div class="container">
+        <h5 class="section-subheading">Need help?</h5>
+        <h2 class="section-heading">Top 10 most popular FAQ's</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+          dignissim dolor in nulla ultrices vitae malesuada.
+        </p>
+        <div class="wrapper">
+          <div class="holder">
+            <div class="box">
+              <input type="checkbox" id="check1" />
+              <label for="check1">
+                <h4>When should I receive my money?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+            <div class="box">
+              <input type="checkbox" id="check2" />
+              <label for="check2">
+                <h4>Why should I subscribe to newsletter?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+            <div class="box">
+              <input type="checkbox" id="check3" />
+              <label for="check3">
+                <h4>Why my card payment is failing?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+            <div class="box">
+              <input type="checkbox" id="check4" />
+              <label for="check4">
+                <h4>When does pay out?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+            <div class="box">
+              <input type="checkbox" id="check5" />
+              <label for="check5">
+                <h4>How do I become a partner?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="box">
+              <input type="checkbox" id="check6" />
+              <label for="check6">
+                <h4>When should I receive my money?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+            <div class="box">
+              <input type="checkbox" id="check7" />
+              <label for="check7">
+                <h4>Why should I subscribe to newsletter?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+            <div class="box">
+              <input type="checkbox" id="check8" />
+              <label for="check8">
+                <h4>Why my card payment is failing?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+            <div class="box">
+              <input type="checkbox" id="check9" />
+              <label for="check9">
+                <h4>When does pay out?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+            <div class="box">
+              <input type="checkbox" id="check10" />
+              <label for="check10">
+                <h4>How do I become a partner?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </label>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur in nulla ut magna vehicula libero luctus in ipsum
+                consequat faucibus. Ut porta nulla ac dapibus convallis.
+                Curabitur sit amet massa quam. In ut ex auctor, porta neque
+                quis, sagittis purus. Nunc auctor gravida magna, sed efficitur
+                tortor tristique quis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== CONTACT ========== -->
+    <div class="contact section" id="contact">
+      <div class="container">
+        <form action="">
+          <h2 class="section-heading">Contact me</h2>
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Your Name" />
+            <input type="email" name="email" placeholder="Your Email" />
+          </div>
+          <div class="input-box">
+            <input type="url" name="website" placeholder="Your Website" />
+          </div>
+          <div class="input-box">
+            <textarea name="message" placeholder="Your Message"></textarea>
+          </div>
+          <div class="input-box">
+            <button
+              value="Get in touch"
+              class="main-btn main-btn-pink main-btn-lg"
+            >
+              Get in touch
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- ========== MAP ========== -->
+    <div id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6045.242852306137!2d-73.985204!3d40.748355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b30eac9f%3A0xaca05ca48ab5ac2c!2s350%205th%20Ave%2C%20New%20York%2C%20NY%2010118!5e0!3m2!1sen!2sus!4v1670935981497!5m2!1sen!2sus"
+        style="border: 0"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="logo">
+          <img src="assets/logo.png" alt="" />
+          <span>VisionM4</span>
+        </div>
+        <div class="wrapper">
+          <div class="holder">
+            <div class="icon">
+              <a href="#" class="main-btn main-btn-circle main-btn-purple">
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+            </div>
+            <div class="text">
+              <h5>MI Jamestown</h5>
+              <h5>146 Kimberly Way</h5>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="icon">
+              <a href="#" class="main-btn main-btn-circle main-btn-pink">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+            <div class="text">
+              <h5>support@yoursite.com</h5>
+              <h5>connect@yoursite.com</h5>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="icon">
+              <a href="#" class="main-btn main-btn-circle main-btn-blue">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </div>
+            <div class="text">
+              <h5>0 (800) 123 45 67</h5>
+              <h5>0 (800) 231 54 76</h5>
+            </div>
+          </div>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-behance"></i></a>
+          </li>
+        </ul>
+        <ul class="links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+          &copy; Copyright 2020 Mobirise - All Rights Reseved
+        </p>
+      </div>
+    </footer>
+
+    <!-- ========== JS ========== -->
+    <script src="main.js"></script>
+  </body>
+</html>
